@@ -7,20 +7,19 @@
 
   <style>
     #passwordDialog {
-      display: none;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-image: url("meenu.png");
-background-size: 100% auto; /* Adjust the percentage value as needed */
+     display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("meenu.png");
+  background-size: cover; /* Ensures the background image covers the entire viewport */
   background-position: center;
-  width: 1080px;
-  height: 720px;
-      padding: 20px;
-      text-align: center;
-      z-index: 100;
-      color: white; /* Added this line */
+  padding: 20px;
+  text-align: center;
+  z-index: 100;
+  color: white; /* Keeps the text color white */
     }
 
     canvas {
