@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Batman's server</title>
+  <title>Halwa's Heart</title>
   <link rel="stylesheet" href="./style.css">
 
   <style>
@@ -12,11 +12,11 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-image: url("pngegg.png");
+      background-image: url("meenu.png");
 background-size: 100% auto; /* Adjust the percentage value as needed */
   background-position: center;
-  width: 500px;
-  height: 300px;
+  width: 1080px;
+  height: 720px;
       padding: 20px;
       text-align: center;
       z-index: 100;
@@ -34,8 +34,8 @@ background-size: 100% auto; /* Adjust the percentage value as needed */
  
   <div id="passwordDialog">
     
-    <h2>This is Batman and I've got something to tell you..but first tell me..</h2>
-    <h3 style="color: white;" "font-size: 20px" >Who are you? (lowercase)</h3> <!-- Modified this line -->
+    <h2>Hello Meenu Paapu</h2>
+    <h3 style="color: white;" "font-size: 20px" >Well there is only one key to my heart and I gave it to you my love, Now enter your name di kullachi, in lowercase (Hint: I am Halwa, You?) </h3> <!-- Modified this line -->
     <input type="password" id="password" />
     <input type="button" value="OK" onclick="checkPassword()" />
     <input type="button" value="Cancel" onclick="hidePasswordDialog()" />
@@ -56,7 +56,7 @@ background-size: 100% auto; /* Adjust the percentage value as needed */
     
     function checkPassword() {
       var password = document.getElementById("password").value;
-      if (password === "robin") {
+      if (password === "meenama") {
         hidePasswordDialog();
         window.location.href = "https://hbdrobin.netlify.app";
       } else {
